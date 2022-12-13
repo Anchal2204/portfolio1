@@ -3,6 +3,7 @@ import "./HeroImg.css";
 import React from 'react';
 import IntroImg from "../assets/intro.jpg";
 import {Link} from "react-router-dom";
+import myImg from "../assets/anchal.jpg";
 
 const HeroImg = () => {
   return (
@@ -10,6 +11,9 @@ const HeroImg = () => {
         <div className="mask">
             <img className="intro-img"
             src= {IntroImg} alt= "IntroImg" />
+        </div>
+        <div className="img">
+          <img className="my-img" src= {myImg} alt= "MyImg" />
         </div>
         <div className="content">
             <p> HI, I'M A FRESHER.</p>

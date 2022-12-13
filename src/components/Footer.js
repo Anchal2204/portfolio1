@@ -1,7 +1,7 @@
 import"./Footer.css";
 
 import React from 'react'
-import {FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin} from"react-icons/fa";
+import {FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaGithub} from"react-icons/fa";
 
 const Footer = () => {
   return (
@@ -28,6 +28,8 @@ const Footer = () => {
             <div className="social">
             <h4><FaFacebook size={30} style={{color:"#fff", marginRight:"1rem"}}/>Anchal Mittan</h4>
             <h4><FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}}/>Anchal Rani</h4>
+            <h4><FaGithub src= "https://github.com/Anchal2204" size={30} style={{color:"#fff", marginRight:"1rem"}}/>Anchal2204</h4>
+            
             </div>
          </div>
         </div>

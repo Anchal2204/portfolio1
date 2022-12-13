@@ -10,6 +10,11 @@
     background-position: center;
     object-fit: cover;
 }
+.my-img{
+     width: 300px;
+     height: 500px;
+     border-radius: 500px;
+}
 .mask::after{
     content: "";
     width: 100%;
@@ -24,6 +29,9 @@
 .hero{
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .hero .content{
