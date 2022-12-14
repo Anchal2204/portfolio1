@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import Work from"../components/Work";
 import Skills from"../components/SkillsCard";
 import About from"../components/AboutContent";
-
 const Home = () => {
   return (
     <div>
@@ -13,6 +12,7 @@ const Home = () => {
         <HeroImg/>
         <About/>
         <Skills/>
+        
         <Work/>
         <Footer/>
     </div>

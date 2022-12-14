@@ -11,9 +11,7 @@ const SkillsCard = () => {
 }
   return (
     <div className="skills" style={{ backgroundColor: "black" }}>
-            <div className="skillsHeader">
                 <h2 style={{ color: "white" }}>Skills</h2>
-            </div>
             <div className="skillsContainer">
                 <div className="skill--scroll">
                     <Marquee

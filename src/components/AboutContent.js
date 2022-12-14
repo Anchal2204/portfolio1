@@ -6,7 +6,7 @@ import React2 from"../assets/react2.jpg";
 const AboutContent = () => {
   return (
     <div className="container" >
-       <h1 className="">About Me</h1> 
+       <h1>About Me</h1> 
     
     <div className="about">
         <div className="left">

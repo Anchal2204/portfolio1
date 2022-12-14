@@ -5,8 +5,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: center;
-    
-    
+}
+.container h1{
+      margin: 30px;
 }
 .about .left{
     text-align:auto;

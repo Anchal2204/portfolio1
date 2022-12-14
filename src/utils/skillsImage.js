@@ -35,7 +35,7 @@ import fastify from '../assets/svg/skill/fastify.svg'
 import figma from '../assets/svg/skill/figma.svg'
 import flutter from '../assets/svg/skill/flutter.svg'
 import microsoftoffice from '../assets/svg/skill/microsoftoffice.svg'
-
+import github from '../assets/svg/skill/github.png'
 import canva from '../assets/svg/skill/canva.svg'
 
 
@@ -112,6 +112,8 @@ export const skillsImage = (skill) => {
             return microsoftoffice;
         case 'canva':
             return canva;
+            case 'github':
+                return github; 
         
         default:
             break;
