@@ -6,7 +6,7 @@
     max-width: 1140px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-gap:40px;
     padding-bottom: 5rem;
 }
@@ -36,7 +36,7 @@
 .pro-btn .btn{
     padding: 1.5rem 1rem;
 }
-@media screen and(max-width:740px){
+@media screen and(max-width:540px){
    .project-container{
     max-width: 90%;
     margin: auto;

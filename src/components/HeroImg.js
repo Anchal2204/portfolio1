@@ -9,14 +9,15 @@ const HeroImg = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="intro-img"
+        <img className="intro-img"
             src= {IntroImg} alt= "IntroImg" />
         </div>
+        
+        <div className="content">
         <div className="img">
           <img className="my-img" src= {myImg} alt= "MyImg" />
         </div>
-        <div className="content">
-            <p> HI, I'M A FRESHER.</p>
+            <p> HI, I'M Anchal.</p>
             <h1>Full Stack Developer</h1>
             <div>
                 <Link to="/project" className="btn">Projects</Link>

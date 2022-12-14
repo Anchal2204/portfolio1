@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="Skills"/>
+      <HeroImg2 heading="Skills" text="Skills I know"/>
       <SkillsCard/>
       <Footer/>
     </div>
