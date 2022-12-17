@@ -28,12 +28,13 @@
 }
 .pro-btn{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0.5rem 1rem;
     
 }   
 .pro-btn .btn{
     padding: 1.5rem 1rem;
+    border-radius: 30px;
 }
 @media screen and(max-width:1040px){
     .project-card{

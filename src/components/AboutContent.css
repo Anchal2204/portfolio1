@@ -15,6 +15,9 @@
     padding: 1rem;
     max-width: 700px;
 }
+.left .btn{
+    border-radius: 30px;
+}
 .about .left p{
     margin: 2.2rem 0;
 }

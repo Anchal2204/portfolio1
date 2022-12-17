@@ -1,13 +1,6 @@
 import "./Footer.css"
 import React from "react";
-import {
-  FaHome,
-  FaPhone,
-  FaMailBulk,
-  FaFacebook,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import {FaHome,FaPhone,FaMailBulk,FaFacebook,FaLinkedin,FaGithub, FaInstagram,} from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         <div className="left">
           <div className="location">
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <FaHome size={30} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
               <p>H.No 407 Sector 23 Sonipat, Haryana</p>
               <p>India</p>
@@ -23,44 +16,22 @@ const Footer = () => {
           </div>
           <div className="phone">
             <h4>
-              <FaPhone
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
-              +91 78764-69626
+              <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} /> +91 78764-69626
             </h4>
           </div>
-          <div className="email">
-            
-            <h4> <FaMailBulk
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />anchal.mittan22@gmail.com</h4>
-          </div>
+          
         </div>
         <div className="right">
           <div className="social">
-            <h4>
-              <FaFacebook
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              Anchal Mittan
+            <h4> <a href="mailto:anchal.mittan@gmail.com"><FaMailBulk size={30}/></a>
             </h4>
-            <h4>
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              Anchal Rani
+            <h4><a href="https://www.facebook.com/anchal.mittan"><FaFacebook size={30}/></a>
             </h4>
-            <h4>
-              <FaGithub
-                src="https://github.com/Anchal2204"
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              Anchal2204
+            <h4><a href="https://www.linkedin.com/in/anchal-rani-993886235/"><FaLinkedin size={30}/></a>
+            </h4>
+            <h4><a href="https://github.com/Anchal2204"><FaGithub size={30}/></a>
+            </h4>
+            <h4><a href="https://www.instagram.com/anchal_mittan/?hl=en"><FaInstagram size={30}/></a>
             </h4>
           </div>
         </div>

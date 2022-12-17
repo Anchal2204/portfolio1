@@ -14,7 +14,8 @@
      width: 300px;
      height: 500px;
      padding-top: 40px;
-     border-radius: 500px;
+     padding-bottom: 20px;
+     border-radius: 700px;
 }
 .mask::after{
     content: "";
@@ -54,6 +55,7 @@
 }
 .content .btn{
     margin: 1rem 0.2rem;
+    border-radius: 30px;
 }
 @media screen and (max-width:640px){
 .hero .content h1{
