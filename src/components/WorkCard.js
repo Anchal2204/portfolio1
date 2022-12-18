@@ -3,7 +3,7 @@ import React from 'react'
 //import { NavLink } from "react-router-dom";
 
 
-const WorkCard = (props) => {
+const WorkCard = ({props}) => {
 
   console.log(props.code)
   return (
@@ -13,8 +13,8 @@ const WorkCard = (props) => {
                 <div className="pro-details">
                     <p>{props.text}</p>
                     <div className="pro-btn">
-                     <a href={props.Code} className="btn" target="_blank">Code</a> 
-                    <a href={props.View} className="btn btn-light" target="_blank">View</a>
+                     <a href={props.code} className="btn" target="_blank" rel="noreferrer">Code</a> 
+                    <a href={props.View} className="btn btn-light" target="_blank" rel="noreferrer">View</a>
                     </div>
                 </div>
             </div>

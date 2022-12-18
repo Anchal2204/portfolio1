@@ -8,7 +8,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:40px;
+    grid-gap:30px;
 }
 .left{
     height: 100%;
@@ -48,7 +48,7 @@ h4{
 p{
     font-size: 1.2rem;
 }
-@media screen and(max-width:640px) {
+@media screen and(max-width:540px) {
     .footer-container{
         grid-template-columns: 1fr;
     }

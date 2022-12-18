@@ -14,10 +14,7 @@ const Work = () => {
             return(
                 <WorkCard 
                 key={ind}
-                imgs={val.imgs}
-                title= {val.title}
-                text={val.text}
-                source={val.Source}
+                props={val}
                 />
             )
           })}  

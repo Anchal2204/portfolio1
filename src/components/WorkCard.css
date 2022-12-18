@@ -1,5 +1,6 @@
 .work-container h1{
     margin: 30px;
+    font-size: 40px;
 }
 .project-container{
     max-width: 1140px;
@@ -11,7 +12,7 @@
 }
 .project-card{
     background: #1a1919;
-    padding: 1.2rem 1rem;
+    padding: 1.2rem 0.5rem;
 }
 .project-card img{
     width:100%;

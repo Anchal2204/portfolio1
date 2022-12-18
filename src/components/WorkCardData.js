@@ -23,7 +23,7 @@ const ProjectCardData =[
         text:"Website is designed using HTML and CSS. It is a clone website of FlipCart Shopping APP.",
         
         code:"https://github.com/Anchal2204/Flipcart",
-        View:"",
+        View:"http://flipcart.vercel.app",
     },
     {
         imgs: project2,
@@ -32,7 +32,7 @@ const ProjectCardData =[
         text:"You can choose to display three different currencies, euros, yen, or dollars, and enter a value in one currency to be converted into the other selected currencies.",
         
         code:"https://github.com/Anchal2204/currency_converter",
-        View:"",
+        View:"http://currency-converter-rho-snowy.vercel.app",
        
     },
     {
@@ -43,7 +43,7 @@ const ProjectCardData =[
         text:"Get the weather report of our country, designed using HTML, CSS, JavaScript.",
         
         code:"https://github.com/Anchal2204/weather",
-        View:"",
+        View:"http://weather-mocha-tau.vercel.app",
     },
     
 ];
