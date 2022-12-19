@@ -7,7 +7,7 @@ import Project from "./routes/Project";
 //import Education from "./routes/Education";
 import { Route, Routes } from "react-router-dom";
 import Skills from "./routes/Skills";
-
+import { Toaster} from "react-hot-toast";
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/skills" element={<Skills />} />
       </Routes>
+      <Toaster/>
     </>
   );
 }

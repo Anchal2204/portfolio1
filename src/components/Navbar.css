@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rock+Salt&display=swap');
 .header{
     display: flex;
     justify-content: space-between;
@@ -11,6 +12,10 @@
 .header-bg{
     background-color: rgba(0,0,0,0.85);
     transition: 0.5s;
+}
+.header h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
 }
 .nav-menu{
     display: flex;
