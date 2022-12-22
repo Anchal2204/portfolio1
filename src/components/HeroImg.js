@@ -43,7 +43,7 @@ const HeroImg = () => {
             Resume
           </a>
           <Link to="/contact" className="btn btn-light">
-            Contacts
+            Contact
           </Link>
         </div>
       </div>

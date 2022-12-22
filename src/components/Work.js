@@ -17,9 +17,13 @@ const Work = () => {
                 props={val}
                 />
             )
-          })}  
+          })} 
+          
         </div>
-    </div>
+        <div className="btn-container"> 
+        <a className="btn1" href="https://github.com/Anchal2204"> More Projects</a>
+        </div>
+      </div>
   )
 }
 

@@ -37,6 +37,10 @@ import flutter from '../assets/svg/skill/flutter.svg'
 import microsoftoffice from '../assets/svg/skill/microsoftoffice.svg'
 import github from '../assets/svg/skill/github.png'
 import canva from '../assets/svg/skill/canva.svg'
+import netlify from '../assets/svg/skill/netlify.png'
+import vercel from '../assets/svg/skill/vercel.png'
+
+
 
 
 export const skillsImage = (skill) => {
@@ -112,8 +116,12 @@ export const skillsImage = (skill) => {
             return microsoftoffice;
         case 'canva':
             return canva;
-            case 'github':
-                return github; 
+         case 'github':
+            return github; 
+        case 'netlify':
+            return netlify; 
+        case 'vercel':
+            return vercel; 
         
         default:
             break;

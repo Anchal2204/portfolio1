@@ -9,4 +9,7 @@ export const skillsData = [
     'PostgreSQL',
     'MaterialUI',
     'Github',
+    'Firebase',
+    'Netlify',
+    
 ]
