@@ -20,7 +20,7 @@ const Work = () => {
           })} 
           
         </div>
-        <div className="btn-container"> 
+        <div className="btn-container"style={{float:"right" , marginRight:"45%"}}> 
         <a className="btn1" href="https://github.com/Anchal2204"> More Projects</a>
         </div>
       </div>
